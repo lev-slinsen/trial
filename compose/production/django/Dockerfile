@@ -70,7 +70,7 @@ RUN mkdir -p ${APP_HOME}/trial/media
 RUN chown django:django ${APP_HOME}
 
 # Place executables in the environment at the front of the path
-ENV PATH="/app/.venv/bin:$PATH"
+ENV PATH="/${APP_HOME}/.venv/bin:$PATH"
 
 USER django
 
