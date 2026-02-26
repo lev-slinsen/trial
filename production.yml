@@ -13,6 +13,8 @@ services:
       dockerfile: ./compose/production/django/Dockerfile
 
     image: trial_production_django
+    expose:
+      - "5000"
     volumes:
       - production_django_media:/app/trial/media
     depends_on:
