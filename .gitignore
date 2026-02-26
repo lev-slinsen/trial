@@ -274,4 +274,4 @@ trial/media/
 .ipython/
 .env
 .envs/*
-!.envs/.local/
+!.envs/.example/
