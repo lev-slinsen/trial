@@ -275,3 +275,4 @@ trial/media/
 .env
 .envs/*
 !.envs/.example/
+uv.lock

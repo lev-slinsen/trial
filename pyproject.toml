@@ -186,4 +186,24 @@ dependencies = [
     "djangorestframework-simplejwt==5.5.1", # https://pypi.org/project/djangorestframework-simplejwt/
     "django-phone-field==1.8.1",  # https://pypi.org/project/django-phone-field/
     "pyotp==2.9.0", # https://pypi.org/project/pyotp/
+    #
+    "coverage==7.13.4",
+    "django-coverage-plugin==3.2.0",
+    "django-debug-toolbar==6.2.0",
+    "django-extensions==4.1",
+    "django-stubs[compatible-mypy]==5.2.9",
+    "djangorestframework-stubs==3.16.8",
+    "djlint==1.36.4",
+    "factory-boy==3.3.2",
+    "ipdb==0.13.13",
+    "mypy==1.19.1",
+    "pre-commit==4.5.1",
+    "psycopg[c]==3.3.3",
+    "pytest==9.0.2",
+    "pytest-django==4.12.0",
+    "pytest-sugar==1.1.1",
+    "ruff==0.15.2",
+    "sphinx==9.1.0",
+    "sphinx-autobuild==2025.8.25",
+    "werkzeug[watchdog]==3.1.6",
 ]
